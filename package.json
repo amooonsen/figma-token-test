@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "style-dictionary": "^3.9.1"
+  },
+  "dependencies": {
+    "scss": "^0.2.4",
+    "token-transformer": "^0.0.33"
+  }
+}
