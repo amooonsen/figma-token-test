@@ -1,6 +1,19 @@
 @import './variables.scss';
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .main-title {
   font-size: 48px;
   color: $primary-color;
+}
+
+.box {
+  margin-top: 20px;
+  padding: 20px;
+  border: $border-black;
 }

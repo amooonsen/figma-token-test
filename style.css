@@ -1,6 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .main-title {
   font-size: 48px;
   color: #ff0000;
+}
+
+.box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #333;
 }
 
 /*# sourceMappingURL=style.css.map */
