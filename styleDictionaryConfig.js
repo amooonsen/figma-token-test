@@ -9,7 +9,6 @@ const StyleDictionary = require('style-dictionary').extend({
         format: 'scss/variables'
       }]
     }
-    // ...
   }
 });
 
