@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "complie" : "node styleDictionaryConfig"
+  },
   "devDependencies": {
     "style-dictionary": "^3.9.1"
   },
