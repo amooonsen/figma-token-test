@@ -1,13 +1,4 @@
 {
-  "primary": {
-    "value": "#ff0000",
-    "type": "color"
-  },
-  "point01": {
-    "value": "#fff",
-    "type": "color",
-    "description": "신규 컬러임"
-  },
   "button": {
     "primary": {
       "background": {
@@ -749,6 +740,24 @@
       "type": "fontSizes"
     }
   },
+  "primary-color": {
+    "value": "#ff0000",
+    "type": "color",
+    "description": "메인컬러"
+  },
+  "point-color-01": {
+    "value": "#ec596a",
+    "type": "color"
+  },
+  "border-black": {
+    "value": {
+      "color": "#333",
+      "width": 1,
+      "style": "solid"
+    },
+    "type": "border",
+    "description": "보더 추가"
+  },
   "tokenSetOrder": {
     "0": {
       "value": "core",
@@ -764,10 +773,6 @@
     },
     "3": {
       "value": "theme",
-      "type": "other"
-    },
-    "4": {
-      "value": "figma-test",
       "type": "other"
     }
   }
