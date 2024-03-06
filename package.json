@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "complie" : "node styleDictionaryConfig"
+    "style" : "node styleDictionaryConfig",
+    "transform" : "node tt.config.js"
   },
   "devDependencies": {
     "style-dictionary": "^3.9.1"
