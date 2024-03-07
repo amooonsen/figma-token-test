@@ -758,6 +758,18 @@
     "type": "border",
     "description": "보더 추가"
   },
+  "border-gray": {
+    "value": {
+      "color": "#ccc",
+      "width": 1,
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "list": {
+    "value": 1.5,
+    "type": "lineHeights"
+  },
   "tokenSetOrder": {
     "0": {
       "value": "core",

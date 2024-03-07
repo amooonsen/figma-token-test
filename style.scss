@@ -5,15 +5,42 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: $colors-black;
+  color: $colors-white;
 }
 
 .main-title {
-  font-size: 48px;
+  font-size: $fontsizes-h1+px;
   color: $primary-color;
+  font-weight: bold;
+}
+
+.sub-title {
+  margin-top: $spacing-md+px;
+  font-size: $fontsizes-h4+px;
 }
 
 .box {
   margin-top: 20px;
   padding: 20px;
   border: $border-black;
+}
+
+.card-list {
+  display: flex;
+  gap: $spacing-lg+px;
+  margin-top: $spacing-lg+px;
+
+  li {
+    font-size: $fontsizes-body+px;
+    border: $border-black;
+    min-height: 200px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm+px;
+    width: 200px;
+  }
 }

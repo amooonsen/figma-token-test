@@ -3,17 +3,42 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #000000;
+  color: #ffffff;
 }
 
 .main-title {
-  font-size: 48px;
+  font-size: 48.829px;
   color: #ff0000;
+  font-weight: bold;
+}
+
+.sub-title {
+  margin-top: 16px;
+  font-size: 25px;
 }
 
 .box {
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #333;
+}
+
+.card-list {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+.card-list li {
+  font-size: 16px;
+  border: 1px solid #333;
+  min-height: 200px;
+}
+.card-list .card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
